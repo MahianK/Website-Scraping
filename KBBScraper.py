@@ -3,16 +3,6 @@ import requests
 from bs4 import BeautifulSoup
 from tabulate import tabulate
 
-
-proxies = {
-   'http': '154.21.104.13:31300:9xdh7395a0:ireauauwpj',
-   'https': '154.21.104.12:31300:9xdh7395a0:ireauauwpj',
-}
-
-headers = {
-    "User-Agent":'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36' 
-}
-
 heading = ["Title", "Price","Milage", "Vin"]
 
 year = [2022,2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,2001,2000,1999,1998,1997,1996,1995,1994,1993,1992]
